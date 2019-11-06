@@ -1,0 +1,187 @@
+
+
+
+.heading_artist_div{
+    margin-top:5%;
+    margin-left: 30%;
+    height: 150px;
+    width: 50%;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    
+}
+
+.artist_input {
+    
+    height: 50%;
+    width: 75%;
+    margin-left: 2%;  
+    font-size: 23px;  
+    border-radius: 5px;
+    
+}
+
+
+#add_btn_artist{
+    height: 40px;
+    width: 80px;
+    margin-top: -78px;  
+    margin-left: 32%;
+    position: absolute; 
+    
+}
+
+#artist_directory {
+   font-size: 30px;
+   margin-left: 5%;
+  
+}
+
+
+.display_artists{
+    margin-left: 37.5%;
+    width: 20%;
+    height: 100px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0.5px;
+
+
+}
+div p:last-child{
+    font-size: 30px;
+}
+
+img{
+    padding-top: 3%;
+    padding-left: 3%
+}
+
+.artistName{
+    
+    margin-top: -80px;
+    margin-left: 32%;
+    font-size: 19px;
+    font-style: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.artistBackground{
+    margin-top: 10px;
+    margin-left: 32%;
+    margin-right: 5px;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+#ss :hover{
+    background-color: yellow;
+    
+}
+
+
+
+
+.artist_input_form {
+    
+    margin-left: 33%;
+    width: 25%;
+    border-radius: 5px;
+    font-size: 23px; 
+    height: 40px; 
+}
+
+#add_btn {
+    margin-left: 43.5%;
+
+    height: 40px;
+    width: 80px;
+
+}
+
+#artist {
+    
+    border: 1px solid;
+    width: auto;
+}
+
+
+
+.artist{
+    display: none;
+    margin-left: 33%;
+    width: 30%;
+    border: solid lightgray;
+    border-radius: 5px;
+    height: 100px;
+    
+}
+.artist_name{
+    margin-left:25%;
+    margin-top:-20%;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.artist_about {
+    
+    margin-left: 25%; 
+    font-weight: unset;
+    font-size: 20px;
+
+}
+
+.artist img {
+    
+    height: 80px;
+    width: 80px;
+}
+
+.btn_delete {
+    height: 30px;
+    width: 60px;
+    margin-top:-2.5%;
+    border-radius: 10px; 
+    margin-left:24%;
+    background-color: red;
+    color: white;
+    position: absolute;
+}
+
+#search_btn_artist{
+    height: 40px;
+    width: 80px;
+    
+    margin-top: -0.2%;  
+    margin-left: 10%;
+    position: absolute;
+    
+}
+.main_artist_div{
+    display: block;
+}
+
+#artist_form{
+    display: none;
+}
+
+#add_btn{
+    display: none;
+}
+
+#logout-form{
+    width: 50%;
+    height: 5%;
+    background-color: yellow;
+    margin-top: 5%;
+    margin-left: 30%;
+    
+}
+
+#logout-btn{
+    font-size: 30px;
+    margin-left: 85%;
+    color: grey;
+}

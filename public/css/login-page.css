@@ -1,0 +1,30 @@
+
+
+#mainDiv{
+    background-color: cornsilk;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    margin-left:30% ;
+    margin-top:10% ;    
+    font-size: 30px;
+}
+
+#members-login{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+input,button{
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 80%;
+    font-size: 30px;
+}
+button {
+    margin-top: 10%;
+    margin-left: 24%;
+    width: 40%;
+    background-color: darkorange;
+   
+}

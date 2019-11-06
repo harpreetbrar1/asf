@@ -1,0 +1,61 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+            </style>
+
+            <link rel="stylesheet" type="text/css" href="./css/style.css">
+            {{#if artistsJS}}
+                <link rel="stylesheet" type="text/css" href="./css/artist.css">
+            {{/if}}
+   
+
+            
+    </head>
+    <body>
+
+            <form id="logout-form" action="/logout" method="POST">
+                <button id="logout-btn" type="submit">Logout</button>
+            </form>
+            <div id = "main_div" class="heading_artist_div">
+                <p class="inside_heading" id = "artist_directory">Artist  Directory</p>
+                <form class = "artist_input" action = '/searchArtist' method = "POST">
+                    <input name = 'input' class = "artist_input"  type="text">
+                    <button id ="search_btn_artist" type = "submit"  >Search</button>
+                </form>
+                <button id ="add_btn_artist" onclick="showForm()">Add Artist</button>
+                
+            </div>
+            <form id = "artist_form" action = '/artist/add' method = 'POST'>
+                        
+                    <input class = "artist_input_form"  name= "name" type="text" maxlength="40" ><br>
+                    <input class = "artist_input_form"  name="about" type="text" maxlength="40" ><br>
+                    <input class = "artist_input_form"  type="text" ><br>
+                    <button id ="add_btn"  onclick="getInformation()" type = "submit" >Add</button>
+            </form>
+            <div class = "main_artist_div">
+            
+            
+    
+    
+    
+    
+
+     {{#if artistsJS}}
+     {{#each artists}}
+     <div class = 'artistClass'>
+         <img class= 'artist-imageurl' src = '{{this.imageurl}}'/>
+         <div class= 'artist-name'>{{this.name}}</div>
+         <div class= 'artist-about'>{{this.about}}</div>
+         <button class= 'delete-btn'  action ='/deleteArtistDisplay' method ='GET'>Delete</button>
+     </div>        
+    {{/each}}
+
+          
+    {{/if}}
+   </div> 
+      <script src="./js/artistScript.js" ></script>
+    </body>
+
+</html>
